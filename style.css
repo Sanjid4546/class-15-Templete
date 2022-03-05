@@ -214,3 +214,452 @@
 	padding: 15px 0;
     color:#4b4b4b;
 }
+
+
+@media(max-width:1200px){
+    .fix-width {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .hero1-right {
+        float: right;
+        width: 49%;
+        margin-top: 44px;
+    }
+    .hero1-right {
+        float: right;
+        width: 51%;
+        margin-top: 0;
+    }
+    .about p {
+        
+        margin-bottom: 51px;
+    }
+    .contact h1 {
+        font-size: 37px;
+        
+    }
+    .contact p {
+        margin-top: 16px;
+        width: 555px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .footer {
+    
+        padding-top: 28px;
+    }
+    
+
+}
+@media(max-width:1100px){
+    .hero {
+        
+        width: 23%;
+      
+    }
+    .hero {
+       
+        padding: 8px;
+        
+    }
+    .hero1-left img {
+        width: 500px;
+        margin-top: 50px;
+        padding-right: 38px;
+        box-sizing: border-box;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .hero1-right {
+       
+        width: 100%;
+        margin-top: 45px;
+    }
+    .hero1-left {
+       
+        width: 100%;
+    }
+    .hero1-left img {
+        width: 100%;
+        
+        padding-right: 0;
+      
+    }
+
+}
+@media(max-width:1000px){
+    .service-item p {
+     
+        margin-top: 19px;
+       
+    }
+    .service-item h1 {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 46px;
+    }
+    .hero {
+        width: 48%;
+    }
+    .hero p {
+        font-size: 16px;
+        width: 283px;
+        margin: auto;
+    }
+    .service-item h1 {
+       
+        font-size: 40px;
+    }
+    .service-item p {
+        margin-top: 12px;
+    }
+    .hero {
+        
+        margin-top: 10px;
+    }
+    .service {
+        padding: 30px 0;
+        
+    }
+
+
+}
+@media(max-width:900px){
+    .header-left a {
+        
+        font-size: 26px;
+      
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .hero h3 {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .hero {
+        width: 22%;
+    }
+    .hero h3 {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .hero1-left img {
+        width: 500px;
+        margin-top: 50px;
+        padding-right: 125px;
+        box-sizing: border-box;
+    }
+    .hero {
+        width: 100%;
+        margin: auto;
+    }
+    .hero1-left img {
+        width: 100%;
+       
+        padding-right: 0;
+      
+    }
+
+
+}
+.responsive-manu{
+    display: none;
+   
+
+}
+
+@media(max-width:800px){
+    
+    .header-right ul {
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .header-right ul{
+        display: none;
+    }
+    .responsive-manu {
+        position: absolute;
+        right: 22px;
+        top: 28px;
+        display: block;
+    }
+    .responsive-manu ul{
+        display: block;
+        text-align: left;
+        padding-left: 0;
+
+    }
+    .responsive-manu ul li {
+        display: block;
+    }
+    .responsive-manu ul li a {
+        color: #111;
+    }
+    .offcanvas-end {
+        
+        width: 235px;
+        
+    }
+    .btn.btn-primary {
+        background: white;
+    }
+    button span i {
+        color: #22c3a3;
+    }
+    .btn-primary {
+      
+        border-color: white !important;
+    }
+   .btn-primary:focus {
+        
+        box-shadow: 0 0 0 .25rem white !important;
+    }
+    .btn-close:focus {
+   
+        box-shadow: 0 0 0 .25rem white !important;
+       
+    }
+    .responsive-manu span i {
+        font-size: 18px;
+    }
+    
+    .textdiv h1 {
+        font-size: 42px;
+    }
+    .textdiv p {
+        
+        font-size: 20px;
+
+    }
+    .button a {
+       
+        font-size: 19px;
+        
+    }
+    .hero h3 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .hero h3 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .hero1-right {
+        float: right;
+        width: 100%;
+        margin-top: 44px;
+    }
+    .service-item p {
+      
+        font-size: 18px;
+    }
+    
+    
+    
+
+}
+@media(max-width:700px){
+    .service-item h1 {
+        font-size: 34px;
+    }
+    .service-item p {
+        font-size: 18px;
+        width: 400px;
+        margin: auto;
+        margin-top: 17px;
+    }
+
+}
+@media(max-width:600px){
+    .textdiv h1 {
+        font-size: 32px;
+    }
+    .banner {
+       
+        padding: 146px 0;
+       
+    }
+    .textdiv h1 {
+        font-size: 26px;
+    }
+    .banner {
+      
+        padding: 113px 0;
+        
+    }
+    .hero h3 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .hero {
+        width: 100%;
+    }
+    .header-left a {
+        font-size: 21px;
+    }
+    .header-left a {
+        font-size: 20px;
+    }
+    .service-item h1 {
+      
+        font-size: 37px;
+    }
+    .service-item p {
+      
+        width: 70%;
+        margin: auto;
+    }
+    .service-item p {
+        
+        font-size: 17px;
+    }
+    .hero1-right {
+       
+        margin-top: 22px;
+    }
+    .contact p {
+        margin-top: 16px;
+        width: 486px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .hero5 {
+        float: left;
+        width: 100%;
+        margin-top: 9px;
+        margin-bottom: 0;
+        padding: 3px 0;
+    }
+    .footer {
+        
+        padding-bottom: 339px;
+        padding-top: 85px;
+    }
+    
+
+
+}
+@media(max-width:500px){
+    .textdiv p {
+        font-size: 17px;
+    }
+    .hero5 {
+        float: left;
+        width: 100%;
+        margin-top: 17px;
+    }
+    .header-left a {
+        font-size: 18px;
+    }
+    .header-left {
+        
+        width: 36%;
+    }
+    .service-item p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .hero1-right p {
+        font-size: 14px;
+    }
+    .contact p {
+        margin-top: 16px;
+        width: 360px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .footer {
+        padding-bottom: 358px;
+        padding-top: 31px;
+    }
+
+
+}
+@media(max-width:400px){
+    .header-right ul li a {
+        
+        padding: 0px 5px;
+        
+    }
+    .textdiv h1 {
+        font-size: 20px;
+    }
+    .textdiv p {
+        font-size: 18px;
+    }
+    .button a {
+        
+        padding: 8px 6px;
+      
+    }
+    .banner {
+        
+        padding: 100px 0;
+        
+    }
+    .textdiv h1 {
+        font-size: 19px;
+    }
+    .textdiv p {
+        font-size: 15px;
+    }
+    .header-left {
+        width: 55%;
+    }
+    .button a {
+        font-size: 15px;
+        padding: 3px 6px;
+    }
+    .service-item h1 {
+        font-size: 34px;
+    }
+    .service-item p {
+        font-size: 15px;
+        font-weight: 0;
+    }
+    .hero1-right p {
+        font-size: 12px;
+    }
+    .hero1-right h2 {
+        font-size: 21px;
+    }
+    .about p {
+        margin-bottom: -12px;
+        font-size: 15px;
+    }
+    .about h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 24px;
+    }
+    .footer-bottom ul li a {
+        color: white;
+        padding: 0px 8px;
+        line-height: 60px;
+        font-size: 20px;
+    }
+    .footer-end p {
+      
+        font-size: 14px;
+        
+    }
+    .contact p {
+        margin-top: 16px;
+        width: 261px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+
+}
